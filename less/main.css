@@ -6,26 +6,64 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'Avenir';
+  font-family: 'Avenirb';
   src: url('font/Avenir-Black.woff2') format('woff2'), url('font/Avenir-Black.woff') format('woff');
   font-weight: 900;
   font-style: normal;
 }
 p,
-h1,
-h2,
-h3,
-h4,
-b,
 li {
   font-family: 'Avenir' !important;
+  font-size: 18px !important;
+  line-height: 130%;
+}
+b,
+strong {
+  font-weight: 600 !important;
+}
+h3,
+h4 {
+  font-family: 'Avenirb' !important;
+  font-size: 26px !important;
+}
+h1,
+h2 {
+  font-family: 'Avenirb' !important;
+  font-size: 31px !important;
+}
+h2,
+h1 {
+  font-weight: 600;
+}
+.b {
+  font-weight: 600;
+}
+.mar-top {
+  margin-top: 40px;
+}
+.mar-bot {
+  margin-bottom: 40px !important;
+}
+.mar-bot20 {
+  margin-bottom: 19px !important;
+}
+.sky {
+  color: #6ac1d3 !important;
+}
+.blue {
+  color: #1db1c2 !important;
+}
+.justify {
+  text-align: justify;
 }
 .fcentered {
-  text-align: center;
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
   flex-direction: column !important;
+}
+.center {
+  text-align: center;
 }
 .fullw {
   margin-left: -250px !important;
@@ -36,7 +74,7 @@ li {
   padding: 10px 26px;
   color: white;
   font-weight: 100;
-  font-size: 20px;
+  font-size: 16px;
   font-family: 'Avenir';
   text-decoration: none !important;
   transition: 0.3s !important;
@@ -49,4 +87,15 @@ li {
 .left-txt {
   text-align: left;
   text-align-last: center;
+}
+#whoweare {
+  position: relative !important;
+  right: 7% !important;
+}
+.bigp p {
+  font-size: 24px !important;
+  font-weight: 500 !important;
+}
+.bigp p .strong {
+  font-weight: 500 !important;
 }

@@ -15,16 +15,69 @@
 
 }
 
-p,h1,h2,h3,h4,b,li{
+p,li{
 font-family: 'Avenir' !important;
+    font-size: 18px !important;
+    line-height: 130%;
+    
+}
+
+b, strong{
+    font-weight: 600 !important;
+}
+
+h3,h4{
+font-family: 'Avenirb' !important;
+    font-size: 26px !important;
+}
+
+h1,h2{
+    font-family: 'Avenirb' !important;
+    font-size: 31px !important;
+}
+
+h2,h1{
+    font-weight: 600;
+}
+
+.b{
+    font-weight: 600;
+}
+
+.mar-top{
+    margin-top: 40px;
+}
+
+.mar-bot{
+margin-bottom: 40px !important;
+}
+
+.mar-bot20{
+    margin-bottom: 19px !important;
+}
+
+.sky{
+    color: @sky !important;
+}
+
+.blue{
+    color: @blue !important;
+}
+
+.justify{
+    text-align: justify;
 }
 
 .fcentered{
-    text-align: center; //THE
+    //text-align: center; //THE
     display: flex !important; //SUPER
     justify-content: center !important; //RESPONSIVE
     align-items: center !important; //TOOL
     flex-direction: column !important; // OMEGA
+}
+
+.center{
+    text-align: center;
 }
 
 .fullw{
@@ -37,7 +90,7 @@ font-family: 'Avenir' !important;
         padding: 10px 26px;
         color: white;
         font-weight: 100;
-        font-size: 20px;
+        font-size: 16px;
         font-family: 'Avenir';
         text-decoration: none !important;
        transition: 0.3s !important;
@@ -52,6 +105,25 @@ font-family: 'Avenir' !important;
 .left-txt{
     text-align: left;
     text-align-last: center;
+}
+
+#whoweare{
+    position: relative !important;
+    right: 7% !important;
+}
+
+#ubik-row-logo{
+    
+}
+
+.bigp{
+    p{
+        font-size: 24px !important;
+        font-weight:500 !important; 
+        .strong{
+             font-weight:500 !important; 
+        }
+    }
 }
 
 //@import "responsive";
