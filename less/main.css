@@ -35,6 +35,12 @@ h2,
 h1 {
   font-weight: 600;
 }
+h1 {
+  font-size: 50px !important;
+  color: white !important;
+  position: relative;
+  top: 45px;
+}
 .b {
   font-weight: 600;
 }
@@ -92,10 +98,78 @@ h1 {
   position: relative !important;
   right: 7% !important;
 }
+.left-txt {
+  text-transform: none !important;
+}
 .bigp p {
   font-size: 24px !important;
   font-weight: 500 !important;
 }
 .bigp p .strong {
   font-weight: 500 !important;
+}
+.btn-submit .ion-ios-search,
+.iw-effect-button-v2 .ion-ios-search {
+  font-size: 30px !important;
+}
+.btn-submit span,
+.iw-effect-button-v2 span {
+  font-size: 22px !important;
+  font-family: 'Avenir';
+}
+#select2-status-x1-container {
+  text-transform: uppercase !important;
+  font-family: 'Avenir' !important;
+  font-size: 22px !important;
+}
+.select2-selection--single .select2-selection__rendered {
+  text-transform: uppercase !important;
+  font-family: 'Avenir' !important;
+  font-size: 22px !important;
+  background-color: #6ac1d3 !important;
+}
+body .iw-search-form .select2-container--default .select2-selection--single .select2-selection__arrow b:after {
+  font-size: 22px !important;
+}
+.iw-search-form .iw-fields .iw-field.for-button-submit {
+  border-radius: 0px !important;
+  -webkit-border-radius: 0px !important;
+}
+.iwp-form button {
+  border-radius: 0px !important;
+}
+.ion-android-settings:before {
+  display: none;
+}
+.iw-search-add-advanced {
+  text-transform: uppercase !important;
+  font-family: 'Avenir' !important;
+  font-size: 16px !important;
+  font-weight: 100;
+}
+li[aria-expanded="true"] {
+  color: #6ac1d3;
+}
+.iw-property-types.style-3 .iw-property-types-wrap {
+  background: #000000;
+  /* Fallback for older browsers without RGBA-support */
+  background: rgba(0, 0, 0, 0.5);
+}
+.iw-property-types.style-3 .iw-property-item .iwp-type-icon a {
+  border: 2px white solid !important;
+  border-radius: 0 !important;
+}
+.vc_custom_1523866808804 {
+  position: relative !important;
+  margin-top: 86px !important;
+}
+.vc_custom_1523866808804 .title-block {
+  position: relative;
+  bottom: 30px;
+}
+.vc_custom_1523866808804 h3 {
+  font-weight: 100 !important;
+  font-size: 12px !important;
+  font-family: 'Avenir' !important;
+  text-transform: uppercase !important;
 }
