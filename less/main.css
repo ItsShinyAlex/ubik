@@ -516,6 +516,17 @@ li[aria-expanded="true"] {
   background-color: #51b151 !important;
 }
 @media screen and (max-width: 650px) {
+  .notrans {
+    text-align: center !important;
+  }
+  .notrans h2 {
+    font-size: 21px !important;
+    text-align: center !important;
+  }
+  .notrans .iwh-description {
+    font-size: 17px !important;
+    text-align: center !important;
+  }
   h1,
   h2 {
     line-height: 135% !important;
