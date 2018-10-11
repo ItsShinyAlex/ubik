@@ -15,6 +15,32 @@
 
 }
 
+.flex {
+        display: flex;
+        flex-wrap: wrap;
+        //flex-direction: column;
+        &.center-h {
+            justify-content: center;
+            text-align: center;
+        }
+
+        &.nowrap {
+            flex-wrap: nowrap;
+        }
+
+        .col {
+        width: 50% !important;
+            padding: 0px;
+            box-sizing: border-box;
+            &.align-self-center {
+                align-self: center;
+            }
+            &.align-self-end {
+                align-self: flex-end;
+            }
+        }
+    }
+
 p,li{
 font-family: 'Avenir' !important;
     font-size: 18px !important;
@@ -257,8 +283,287 @@ border-radius: 0px !important;
 //  :nth-of-type(2)
 
 
+.main-logo{
+    width: 160px !important;
+    height: auto;
+    position: relative !important;
+    bottom: 31px;
+}
+
+.sticky-logo{
+   width: 100px !important;
+    height: auto;
+    position: relative !important;
+    bottom: 50px;
+}
+
+.header, .header-default, .header-style-v2,  .no-page-heading, .header-sticky, .navbar, .navbar-default, .iw-header, .iw-header-sticky, .static{
+   // max-height: 200px !important;
+    //height: 200px !important;
+    //min-height: 150px !important;
+} 
+
+.navbar-default-inner{
+    min-height: 136px;
+}
+
+.is-sticky{
+    .navbar-default-inner{
+    min-height: 90px !important;
+    }
+}
 
 
+    #contacto {
+        background-color: @bblue;
+        background-size: cover;
+        padding-top: 80px;
+        padding-bottom: 40px;
+
+        
+        h3{
+            font-size: 42px !important;
+            color: white !important;
+        }
+        
+        h2{
+            font-size: 48px !important;
+                
+        }
+        
+        .padless{
+            padding: 0;
+            margin: 0;
+            
+            line-height: 105%;
+        }
+
+
+
+
+        .c-col {
+            padding-left: 0px;
+            padding-right: 60px;
+
+            .flex {
+                padding-top: 30px;
+                padding-bottom: 20px;
+            }
+
+            .txt {
+                width: 63%;
+            }
+
+        }
+
+        a {
+            text-decoration: none;
+            &:hover {
+                color: @red;
+            }
+
+            p {
+                transition: 0.3s;
+            }
+
+            p:hover {
+                color: @red;
+            }
+        }
+
+
+
+        .pad-top {
+            padding-top: 25px;
+        }
+
+        h2,
+        p {
+            color: white;
+        }
+
+
+
+
+        h2 {
+            font-size: 62px;
+            line-height: 150%;
+            font-style: normal;
+        }
+
+        .uptown {
+            font-size: 100px;
+        }
+
+
+
+        .icon {
+            width: 20%;
+            img {
+                //width: 180px;
+            }
+        }
+
+        #followus {
+            #siguenos {
+                width: 36%;
+                p {
+                    font-size: 32px !important;
+                }
+            }
+            .icon {
+                width: 17%;
+            }
+
+            img {
+                &:hover {
+                    transform: scale(1.2);
+                    transition: 0.3s;
+                }
+            }
+
+        }
+
+
+
+
+        .icons-bot {
+            margin-bottom: 25px;
+        }
+
+        .mar-bot {
+            margin-bottom: 60px;
+        }
+
+        .pad-left {
+            padding-left: 22px;
+        }
+
+        #mapa {
+            p {
+                font-size: 18px;
+                &.phone {
+                    padding-top: 5%;
+                    font-size: 22px;
+                }
+            }
+            padding-top: 180px;
+
+        }
+
+        .big {
+            font-size: 24px;
+            font-weight: 900;
+        }
+
+        .col {
+            #cform {
+
+                #caldera_form_1 {
+
+                    //#fld_2494155_1{
+                    select {
+                        border-width: 0px !important;
+                        border-color: white !important;
+                        border-radius: 0px;
+                        background: transparent !important;
+                        color: white !important;
+                        font-family: "Avenir" !important;
+                        padding: 8px;
+                        font-size: 16px;
+                        height: 60px;
+                        //text-transform: uppercase !important;
+                        font-weight: 400;
+                        height: 1%;
+
+                        option {
+                            color: black;
+                            font-size: 18px;
+                        }
+
+                        margin-bottom: 0px;
+                        margin-top: 20px;
+                    }
+
+                    .caldera-grid .form-control::-webkit-input-placeholder {
+                        color: white !important;
+                    }
+
+                    .row,
+                    .single {
+                        .col-sm-12 {
+
+
+                            .form-control {
+                                border-width: 0px !important;
+                                border-color: white !important;
+                                border-radius: 8px;
+                                background: transparent !important;
+                                color: white !important;
+                                font-family: "Avenir" !important;
+                                padding: 23px;
+                                font-size: 20px;
+
+                                &::-webkit-input-placeholder {
+                                    color: white !important;
+                                }
+
+
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+
+
+
+
+
+
+        .caldera-grid .checkbox label,
+        .caldera-grid .radio label {
+            color: white !important;
+            font-family: "Avenir" !important;
+            font-size: 20px;
+        } //checkbox
+        .fld_2494155_1,
+        .fld_5824425_1 {
+            height: 20px;
+            width: 90px;
+            margin-top: 10px;
+        } //button
+        #fld_5573142_1-wrap,
+        #fld_2388358_1-wrap {
+            float: right;
+            #fld_5573142_1,
+            #fld_2388358_1,
+            .btn-form-class {
+                background: @green !important;
+                padding: 10px 46px;
+                border-radius: 8px;
+                color: white;
+                font-weight: 600;
+                font-size: 24px;
+                font-family: 'Alte Haas Grotesk';
+                text-decoration: none !important;
+                transition: 0.3s;
+                &:hover {
+                    color: @red;
+                    background: #45706b !important;
+                }
+            }
+        }
+
+        .caldera-grid input[type=submit] {
+            background-color: @green !important;
+        }
+        input[type="submit"]:not([name="update_cart"]) {
+            background-color: @green !important;
+        }
+
+    }
 
 //@import "responsive";
 

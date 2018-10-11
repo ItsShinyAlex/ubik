@@ -11,6 +11,28 @@
   font-weight: 900;
   font-style: normal;
 }
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex.center-h {
+  justify-content: center;
+  text-align: center;
+}
+.flex.nowrap {
+  flex-wrap: nowrap;
+}
+.flex .col {
+  width: 50% !important;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.flex .col.align-self-center {
+  align-self: center;
+}
+.flex .col.align-self-end {
+  align-self: flex-end;
+}
 p,
 li {
   font-family: 'Avenir' !important;
@@ -172,4 +194,201 @@ li[aria-expanded="true"] {
   font-size: 12px !important;
   font-family: 'Avenir' !important;
   text-transform: uppercase !important;
+}
+.main-logo {
+  width: 160px !important;
+  height: auto;
+  position: relative !important;
+  bottom: 31px;
+}
+.sticky-logo {
+  width: 100px !important;
+  height: auto;
+  position: relative !important;
+  bottom: 50px;
+}
+.navbar-default-inner {
+  min-height: 136px;
+}
+.is-sticky .navbar-default-inner {
+  min-height: 90px !important;
+}
+#contacto {
+  background-color: #29b1c2;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+#contacto h3 {
+  font-size: 42px !important;
+  color: white !important;
+}
+#contacto h2 {
+  font-size: 48px !important;
+}
+#contacto .padless {
+  padding: 0;
+  margin: 0;
+  line-height: 105%;
+}
+#contacto .c-col {
+  padding-left: 0px;
+  padding-right: 60px;
+}
+#contacto .c-col .flex {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+#contacto .c-col .txt {
+  width: 63%;
+}
+#contacto a {
+  text-decoration: none;
+}
+#contacto a:hover {
+  color: #e44a4b;
+}
+#contacto a p {
+  transition: 0.3s;
+}
+#contacto a p:hover {
+  color: #e44a4b;
+}
+#contacto .pad-top {
+  padding-top: 25px;
+}
+#contacto h2,
+#contacto p {
+  color: white;
+}
+#contacto h2 {
+  font-size: 62px;
+  line-height: 150%;
+  font-style: normal;
+}
+#contacto .uptown {
+  font-size: 100px;
+}
+#contacto .icon {
+  width: 20%;
+}
+#contacto #followus #siguenos {
+  width: 36%;
+}
+#contacto #followus #siguenos p {
+  font-size: 32px !important;
+}
+#contacto #followus .icon {
+  width: 17%;
+}
+#contacto #followus img:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+#contacto .icons-bot {
+  margin-bottom: 25px;
+}
+#contacto .mar-bot {
+  margin-bottom: 60px;
+}
+#contacto .pad-left {
+  padding-left: 22px;
+}
+#contacto #mapa {
+  padding-top: 180px;
+}
+#contacto #mapa p {
+  font-size: 18px;
+}
+#contacto #mapa p.phone {
+  padding-top: 5%;
+  font-size: 22px;
+}
+#contacto .big {
+  font-size: 24px;
+  font-weight: 900;
+}
+#contacto .col #cform #caldera_form_1 select {
+  border-width: 0px !important;
+  border-color: white !important;
+  border-radius: 0px;
+  background: transparent !important;
+  color: white !important;
+  font-family: "Avenir" !important;
+  padding: 8px;
+  font-size: 16px;
+  height: 60px;
+  font-weight: 400;
+  height: 1%;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+#contacto .col #cform #caldera_form_1 select option {
+  color: black;
+  font-size: 18px;
+}
+#contacto .col #cform #caldera_form_1 .caldera-grid .form-control::-webkit-input-placeholder {
+  color: white !important;
+}
+#contacto .col #cform #caldera_form_1 .row .col-sm-12 .form-control,
+#contacto .col #cform #caldera_form_1 .single .col-sm-12 .form-control {
+  border-width: 0px !important;
+  border-color: white !important;
+  border-radius: 8px;
+  background: transparent !important;
+  color: white !important;
+  font-family: "Avenir" !important;
+  padding: 23px;
+  font-size: 20px;
+}
+#contacto .col #cform #caldera_form_1 .row .col-sm-12 .form-control::-webkit-input-placeholder,
+#contacto .col #cform #caldera_form_1 .single .col-sm-12 .form-control::-webkit-input-placeholder {
+  color: white !important;
+}
+#contacto .caldera-grid .checkbox label,
+#contacto .caldera-grid .radio label {
+  color: white !important;
+  font-family: "Avenir" !important;
+  font-size: 20px;
+}
+#contacto .fld_2494155_1,
+#contacto .fld_5824425_1 {
+  height: 20px;
+  width: 90px;
+  margin-top: 10px;
+}
+#contacto #fld_5573142_1-wrap,
+#contacto #fld_2388358_1-wrap {
+  float: right;
+}
+#contacto #fld_5573142_1-wrap #fld_5573142_1,
+#contacto #fld_2388358_1-wrap #fld_5573142_1,
+#contacto #fld_5573142_1-wrap #fld_2388358_1,
+#contacto #fld_2388358_1-wrap #fld_2388358_1,
+#contacto #fld_5573142_1-wrap .btn-form-class,
+#contacto #fld_2388358_1-wrap .btn-form-class {
+  background: #51b151 !important;
+  padding: 10px 46px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+  font-family: 'Alte Haas Grotesk';
+  text-decoration: none !important;
+  transition: 0.3s;
+}
+#contacto #fld_5573142_1-wrap #fld_5573142_1:hover,
+#contacto #fld_2388358_1-wrap #fld_5573142_1:hover,
+#contacto #fld_5573142_1-wrap #fld_2388358_1:hover,
+#contacto #fld_2388358_1-wrap #fld_2388358_1:hover,
+#contacto #fld_5573142_1-wrap .btn-form-class:hover,
+#contacto #fld_2388358_1-wrap .btn-form-class:hover {
+  color: #e44a4b;
+  background: #45706b !important;
+}
+#contacto .caldera-grid input[type=submit] {
+  background-color: #51b151 !important;
+}
+#contacto input[type="submit"]:not([name="update_cart"]) {
+  background-color: #51b151 !important;
 }
