@@ -216,8 +216,18 @@ li[aria-expanded="true"] {
 #contacto {
   background-color: #29b1c2;
   background-size: cover;
-  padding-top: 80px;
-  padding-bottom: 40px;
+  padding-top: 220px;
+  padding-bottom: 180px;
+}
+#contacto #cflex {
+  margin-bottom: 210px;
+}
+#contacto img {
+  transition: 0.3s;
+}
+#contacto img:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
 }
 #contacto h3 {
   font-size: 42px !important;
@@ -243,16 +253,19 @@ li[aria-expanded="true"] {
   width: 63%;
 }
 #contacto a {
+  transition: 0.3s;
   text-decoration: none;
 }
 #contacto a:hover {
-  color: #e44a4b;
+  color: #e44a4b !important;
+  transition: 0.3s;
+  text-shadow: 2px 2px 8px black;
 }
 #contacto a p {
   transition: 0.3s;
 }
 #contacto a p:hover {
-  color: #e44a4b;
+  color: #e44a4b !important;
 }
 #contacto .pad-top {
   padding-top: 25px;
@@ -266,20 +279,30 @@ li[aria-expanded="true"] {
   line-height: 150%;
   font-style: normal;
 }
-#contacto .uptown {
-  font-size: 100px;
-}
 #contacto .icon {
   width: 20%;
 }
-#contacto #followus #siguenos {
-  width: 36%;
+#contacto p,
+#contacto a {
+  font-size: 28px !important;
+  color: white !important;
 }
-#contacto #followus #siguenos p {
-  font-size: 32px !important;
+#contacto #followus {
+  flex-direction: row !important;
+}
+#contacto #followus .v-center {
+  display: flex;
+  align-items: center !important;
+}
+#contacto #followus .txt {
+  width: 31% !important;
 }
 #contacto #followus .icon {
-  width: 17%;
+  width: 15% !important;
+}
+#contacto #followus img {
+  width: 85% !important;
+  transition: 0.3s;
 }
 #contacto #followus img:hover {
   transform: scale(1.2);
@@ -295,13 +318,32 @@ li[aria-expanded="true"] {
   padding-left: 22px;
 }
 #contacto #mapa {
-  padding-top: 180px;
+  padding-top: 107px;
+}
+#contacto #mapa .icons-bot .fcentered {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  flex-direction: column !important;
+}
+#contacto #mapa .icons-bot .icon {
+  width: 12% !important;
+}
+#contacto #mapa .icons-bot .txt {
+  width: 88% !important;
+}
+#contacto #mapa .icons-bot .v-center {
+  display: flex;
+  align-items: center !important;
+}
+#contacto #mapa img {
+  width: 70%;
 }
 #contacto #mapa p {
-  font-size: 18px;
+  font-size: 24px;
 }
 #contacto #mapa p.phone {
-  padding-top: 5%;
+  padding-top: 0%;
   font-size: 22px;
 }
 #contacto .big {
@@ -312,11 +354,11 @@ li[aria-expanded="true"] {
   border-width: 0px !important;
   border-color: white !important;
   border-radius: 0px;
-  background: transparent !important;
-  color: white !important;
+  background: white !important;
+  color: black !important;
   font-family: "Avenir" !important;
   padding: 8px;
-  font-size: 16px;
+  font-size: 24px;
   height: 60px;
   font-weight: 400;
   height: 1%;
@@ -328,34 +370,42 @@ li[aria-expanded="true"] {
   font-size: 18px;
 }
 #contacto .col #cform #caldera_form_1 .caldera-grid .form-control::-webkit-input-placeholder {
-  color: white !important;
+  color: black !important;
 }
 #contacto .col #cform #caldera_form_1 .row .col-sm-12 .form-control,
 #contacto .col #cform #caldera_form_1 .single .col-sm-12 .form-control {
   border-width: 0px !important;
   border-color: white !important;
-  border-radius: 8px;
-  background: transparent !important;
-  color: white !important;
+  border-radius: 0px;
+  background: white !important;
+  color: black !important;
   font-family: "Avenir" !important;
   padding: 23px;
   font-size: 20px;
 }
 #contacto .col #cform #caldera_form_1 .row .col-sm-12 .form-control::-webkit-input-placeholder,
 #contacto .col #cform #caldera_form_1 .single .col-sm-12 .form-control::-webkit-input-placeholder {
-  color: white !important;
+  color: black !important;
 }
 #contacto .caldera-grid .checkbox label,
 #contacto .caldera-grid .radio label {
   color: white !important;
   font-family: "Avenir" !important;
-  font-size: 20px;
+  font-size: 24px;
+  padding-left: 10%;
+  margin-bottom: 40px;
 }
-#contacto .fld_2494155_1,
-#contacto .fld_5824425_1 {
-  height: 20px;
+#contacto #fld_7872352_1-wrap {
+  margin-top: 160px;
+  margin-bottom: 60px;
+}
+#contacto #fld_7872352_1-wrap .fld_7872352_1,
+#contacto #fld_7872352_1-wrap .fld_5824425_1,
+#contacto #fld_7872352_1-wrap option-required {
+  height: 32px;
   width: 90px;
-  margin-top: 10px;
+  margin-top: -3px;
+  margin-left: -70px !important;
 }
 #contacto #fld_5573142_1-wrap,
 #contacto #fld_2388358_1-wrap {
@@ -367,13 +417,12 @@ li[aria-expanded="true"] {
 #contacto #fld_2388358_1-wrap #fld_2388358_1,
 #contacto #fld_5573142_1-wrap .btn-form-class,
 #contacto #fld_2388358_1-wrap .btn-form-class {
-  background: #51b151 !important;
   padding: 10px 46px;
-  border-radius: 8px;
+  border-radius: 0px;
   color: white;
   font-weight: 600;
   font-size: 24px;
-  font-family: 'Alte Haas Grotesk';
+  font-family: 'Avenir';
   text-decoration: none !important;
   transition: 0.3s;
 }
@@ -383,8 +432,8 @@ li[aria-expanded="true"] {
 #contacto #fld_2388358_1-wrap #fld_2388358_1:hover,
 #contacto #fld_5573142_1-wrap .btn-form-class:hover,
 #contacto #fld_2388358_1-wrap .btn-form-class:hover {
-  color: #e44a4b;
-  background: #45706b !important;
+  color: aliceblue;
+  background: #e44a4b !important;
 }
 #contacto .caldera-grid input[type=submit] {
   background-color: #51b151 !important;

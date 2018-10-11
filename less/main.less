@@ -41,6 +41,9 @@
         }
     }
 
+
+
+
 p,li{
 font-family: 'Avenir' !important;
     font-size: 18px !important;
@@ -108,6 +111,8 @@ margin-bottom: 40px !important;
     align-items: center !important; //TOOL
     flex-direction: column !important; // OMEGA
 }
+
+
 
 .center{
     text-align: center;
@@ -317,9 +322,21 @@ border-radius: 0px !important;
     #contacto {
         background-color: @bblue;
         background-size: cover;
-        padding-top: 80px;
-        padding-bottom: 40px;
+        padding-top: 220px;
+        padding-bottom: 180px;
+        
+        #cflex{
+            margin-bottom: 210px;
+        }
 
+        
+            img {
+                transition: 0.3s;
+                &:hover {
+                    transform: scale(1.2);
+                    transition: 0.3s;
+                }
+            }
         
         h3{
             font-size: 42px !important;
@@ -357,9 +374,12 @@ border-radius: 0px !important;
         }
 
         a {
+             transition: 0.3s;
             text-decoration: none;
             &:hover {
-                color: @red;
+                color: @red !important;
+                transition: 0.3s;
+                   text-shadow: 2px 2px 8px black; 
             }
 
             p {
@@ -367,7 +387,7 @@ border-radius: 0px !important;
             }
 
             p:hover {
-                color: @red;
+            color: @red !important;
             }
         }
 
@@ -391,9 +411,7 @@ border-radius: 0px !important;
             font-style: normal;
         }
 
-        .uptown {
-            font-size: 100px;
-        }
+
 
 
 
@@ -403,19 +421,31 @@ border-radius: 0px !important;
                 //width: 180px;
             }
         }
+        
+           p, a{
+                    font-size: 28px !important;
+                        color: white !important;
+                    }
 
         #followus {
-            #siguenos {
-                width: 36%;
-                p {
-                    font-size: 32px !important;
-                }
+            flex-direction: row !important;
+                   .v-center{
+                     display: flex;
+                   align-items: center !important;
+                    }
+            
+            
+            .txt{
+                width: 31% !important;
+                   
             }
             .icon {
-                width: 17%;
+                width: 15% !important;
             }
 
             img {
+                width: 85% !important;
+                transition: 0.3s;
                 &:hover {
                     transform: scale(1.2);
                     transition: 0.3s;
@@ -439,15 +469,54 @@ border-radius: 0px !important;
             padding-left: 22px;
         }
 
-        #mapa {
+        #mapa { //important for ubik
+            
+            
+            .icons-bot{
+                
+                .fcentered{
+                    //text-align: center; //THE
+                    display: flex !important; //SUPER
+                    justify-content: flex-start !important; //RESPONSIVE
+                    align-items: center !important; //TOOL
+                    flex-direction: column !important; // OMEGA
+                }
+                
+                
+                .icon{
+                width: 12% !important;
+                }
+                
+                .txt{
+                    width: 88% !important;
+                    
+                 
+                    
+                   
+                    
+                }
+                 .v-center{
+                     display: flex;
+                   align-items: center !important;
+                    }
+            }
+            
+            
+            
+            img{
+                width: 70%;
+            }
+            
             p {
-                font-size: 18px;
+                font-size: 24px;
                 &.phone {
-                    padding-top: 5%;
+                    padding-top: 0%;
                     font-size: 22px;
                 }
+                
+                //padding-top: 10%;
             }
-            padding-top: 180px;
+            padding-top: 107px;
 
         }
 
@@ -466,11 +535,11 @@ border-radius: 0px !important;
                         border-width: 0px !important;
                         border-color: white !important;
                         border-radius: 0px;
-                        background: transparent !important;
-                        color: white !important;
+                        background: white !important;
+                        color: black !important;
                         font-family: "Avenir" !important;
                         padding: 8px;
-                        font-size: 16px;
+                        font-size: 24px;
                         height: 60px;
                         //text-transform: uppercase !important;
                         font-weight: 400;
@@ -486,7 +555,7 @@ border-radius: 0px !important;
                     }
 
                     .caldera-grid .form-control::-webkit-input-placeholder {
-                        color: white !important;
+                        color: black !important;
                     }
 
                     .row,
@@ -497,15 +566,15 @@ border-radius: 0px !important;
                             .form-control {
                                 border-width: 0px !important;
                                 border-color: white !important;
-                                border-radius: 8px;
-                                background: transparent !important;
-                                color: white !important;
+                                border-radius: 0px;
+                                background: white !important;
+                                color: black !important;
                                 font-family: "Avenir" !important;
                                 padding: 23px;
                                 font-size: 20px;
 
                                 &::-webkit-input-placeholder {
-                                    color: white !important;
+                                    color: black !important;
                                 }
 
 
@@ -526,32 +595,45 @@ border-radius: 0px !important;
         .caldera-grid .radio label {
             color: white !important;
             font-family: "Avenir" !important;
-            font-size: 20px;
+            font-size: 24px;
+            padding-left: 10%;
+            margin-bottom: 40px;
         } //checkbox
-        .fld_2494155_1,
-        .fld_5824425_1 {
-            height: 20px;
-            width: 90px;
-            margin-top: 10px;
-        } //button
+        
+        #fld_7872352_1-wrap{
+            
+            margin-top: 160px;
+            margin-bottom: 60px;
+            
+            .fld_7872352_1,
+            .fld_5824425_1, option-required {
+                height: 32px;
+                width: 90px;
+                margin-top: -3px;
+                
+                margin-left: -70px !important;
+            }  
+        }
+        
+         //button
         #fld_5573142_1-wrap,
         #fld_2388358_1-wrap {
             float: right;
             #fld_5573142_1,
             #fld_2388358_1,
             .btn-form-class {
-                background: @green !important;
+                //background: @green !important;
                 padding: 10px 46px;
-                border-radius: 8px;
+                border-radius: 0px;
                 color: white;
                 font-weight: 600;
                 font-size: 24px;
-                font-family: 'Alte Haas Grotesk';
+                font-family: 'Avenir';
                 text-decoration: none !important;
                 transition: 0.3s;
                 &:hover {
-                    color: @red;
-                    background: #45706b !important;
+                    color: aliceblue;
+                    background: @red !important;
                 }
             }
         }
