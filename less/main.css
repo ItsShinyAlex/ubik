@@ -11,6 +11,56 @@
   font-weight: 900;
   font-style: normal;
 }
+@media screen and (min-width: 1150px) {
+  #properties .shortcode-title {
+    color: #1db1c2 !important;
+    font-size: 36px !important;
+  }
+  #properties .subtitle {
+    color: #1db1c2 !important;
+    font-size: 22px !important;
+    font-family: 'Avenir' !important;
+  }
+  #properties h3 {
+    font-size: 12px !important;
+    font-weight: 100 !important;
+    font-family: 'Avenir' !important;
+  }
+  #properties h3 a {
+    font-family: 'Avenirb' !important;
+  }
+  #properties p {
+    font-size: 14px !important;
+    line-height: 125% !important;
+  }
+  #properties .content-top h2 a {
+    font-size: 19px !important;
+    line-height: 105% !important;
+    font-family: 'Avenirb' !important;
+    font-weight: 600 !important;
+  }
+  .notrans h2 {
+    padding-right: 13.5%;
+  }
+}
+#properties .shortcode-title {
+  color: #1db1c2 !important;
+}
+#properties .subtitle {
+  color: #1db1c2 !important;
+  font-family: 'Avenir' !important;
+}
+#properties h3 {
+  font-weight: 100 !important;
+  font-family: 'Avenir' !important;
+}
+#properties h3 a {
+  font-family: 'Avenirb' !important;
+}
+#properties .content-top h2 a {
+  font-family: 'Avenirb' !important;
+  font-weight: 600 !important;
+}
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -58,13 +108,16 @@ strong {
   font-weight: 600 !important;
 }
 @media screen and (min-width: 1150px) {
+  p {
+    font-size: 22px !important;
+  }
   h3,
   h4 {
-    font-size: 26px !important;
+    font-size: 28px !important;
   }
   h1,
   h2 {
-    font-size: 31px !important;
+    font-size: 36px !important;
   }
   h2,
   h1 {
@@ -156,7 +209,10 @@ strong {
 .left-txt {
   text-transform: none !important;
 }
-notrans {
+.notrans h2 {
+  text-transform: none !important;
+}
+.notrans .iwh-description {
   text-transform: none !important;
 }
 .btn-submit span,
