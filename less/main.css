@@ -156,6 +156,9 @@ strong {
 .left-txt {
   text-transform: none !important;
 }
+notrans {
+  text-transform: none !important;
+}
 .btn-submit span,
 .iw-effect-button-v2 span {
   font-family: 'Avenir';
