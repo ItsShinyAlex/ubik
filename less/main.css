@@ -36,6 +36,20 @@
 p,
 li {
   font-family: 'Avenir' !important;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Avenirb' !important;
+}
+h1 {
+  color: white !important;
+  position: relative;
+  top: 45px;
+}
+p,
+li {
   font-size: 18px !important;
   line-height: 130%;
 }
@@ -43,28 +57,53 @@ b,
 strong {
   font-weight: 600 !important;
 }
-h3,
-h4 {
-  font-family: 'Avenirb' !important;
-  font-size: 26px !important;
-}
-h1,
-h2 {
-  font-family: 'Avenirb' !important;
-  font-size: 31px !important;
-}
-h2,
-h1 {
-  font-weight: 600;
-}
-h1 {
-  font-size: 50px !important;
-  color: white !important;
-  position: relative;
-  top: 45px;
-}
-.b {
-  font-weight: 600;
+@media screen and (min-width: 1150px) {
+  h3,
+  h4 {
+    font-size: 26px !important;
+  }
+  h1,
+  h2 {
+    font-size: 31px !important;
+  }
+  h2,
+  h1 {
+    font-weight: 600;
+  }
+  h1 {
+    font-size: 50px !important;
+  }
+  .fullw {
+    margin-left: -250px !important;
+    margin-right: -250px !important;
+  }
+  .btn-green {
+    font-size: 16px;
+  }
+  .btn-submit .ion-ios-search,
+  .iw-effect-button-v2 .ion-ios-search {
+    font-size: 30px !important;
+  }
+  .btn-submit span,
+  .iw-effect-button-v2 span {
+    font-size: 22px !important;
+  }
+  #select2-status-x1-container {
+    font-size: 22px !important;
+  }
+  .select2-selection--single .select2-selection__rendered {
+    font-size: 22px !important;
+  }
+  body .iw-search-form .select2-container--default .select2-selection--single .select2-selection__arrow b:after {
+    font-size: 22px !important;
+  }
+  .iw-search-add-advanced {
+    font-size: 16px !important;
+  }
+  #whoweare {
+    position: relative !important;
+    right: 7% !important;
+  }
 }
 .mar-top {
   margin-top: 40px;
@@ -85,24 +124,19 @@ h1 {
   text-align: justify;
 }
 .fcentered {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  flex-direction: column !important;
+  display: flex;
+  justify-content: center ;
+  align-items: center ;
+  flex-direction: column ;
 }
 .center {
   text-align: center;
-}
-.fullw {
-  margin-left: -250px !important;
-  margin-right: -250px !important;
 }
 .btn-green {
   background-color: #51b151;
   padding: 10px 26px;
   color: white;
   font-weight: 100;
-  font-size: 16px;
   font-family: 'Avenir';
   text-decoration: none !important;
   transition: 0.3s !important;
@@ -118,40 +152,22 @@ h1 {
 }
 #whoweare {
   position: relative !important;
-  right: 7% !important;
 }
 .left-txt {
   text-transform: none !important;
 }
-.bigp p {
-  font-size: 24px !important;
-  font-weight: 500 !important;
-}
-.bigp p .strong {
-  font-weight: 500 !important;
-}
-.btn-submit .ion-ios-search,
-.iw-effect-button-v2 .ion-ios-search {
-  font-size: 30px !important;
-}
 .btn-submit span,
 .iw-effect-button-v2 span {
-  font-size: 22px !important;
   font-family: 'Avenir';
 }
 #select2-status-x1-container {
   text-transform: uppercase !important;
   font-family: 'Avenir' !important;
-  font-size: 22px !important;
 }
 .select2-selection--single .select2-selection__rendered {
   text-transform: uppercase !important;
   font-family: 'Avenir' !important;
-  font-size: 22px !important;
   background-color: #6ac1d3 !important;
-}
-body .iw-search-form .select2-container--default .select2-selection--single .select2-selection__arrow b:after {
-  font-size: 22px !important;
 }
 .iw-search-form .iw-fields .iw-field.for-button-submit {
   border-radius: 0px !important;
@@ -166,7 +182,6 @@ body .iw-search-form .select2-container--default .select2-selection--single .sel
 .iw-search-add-advanced {
   text-transform: uppercase !important;
   font-family: 'Avenir' !important;
-  font-size: 16px !important;
   font-weight: 100;
 }
 li[aria-expanded="true"] {
@@ -440,4 +455,164 @@ li[aria-expanded="true"] {
 }
 #contacto input[type="submit"]:not([name="update_cart"]) {
   background-color: #51b151 !important;
+}
+@media screen and (max-width: 650px) {
+  h1,
+  h2 {
+    line-height: 135% !important;
+  }
+  h1 {
+    margin-bottom: 80px !important;
+  }
+  #who .vc_column-inner {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    padding: 25px !important;
+  }
+  #who .blue {
+    text-align: center !important;
+  }
+  #who p {
+    text-align: justify;
+    text-align-last: center;
+  }
+  #howework .iwh-title {
+    text-align: center !important;
+    line-height: 120%;
+  }
+  #howework p {
+    text-align-last: center;
+  }
+  #howework .vc_column-inner {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  #contacto {
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+  #contacto #cflex {
+    margin-bottom: 10px;
+  }
+  #contacto a,
+  #contacto p {
+    font-size: 18px !important;
+  }
+  #contacto .col,
+  #contacto #mapa,
+  #contacto c-col {
+    text-align: center;
+    width: 100% !important;
+  }
+  #contacto img {
+    width: 100%;
+  }
+  #contacto .col .big {
+    padding-left: 15px;
+  }
+  #contacto h3 {
+    font-size: 20px !important;
+    color: white !important;
+    text-align: center !important;
+  }
+  #contacto h2 {
+    font-size: 30px !important;
+    text-align: center !important;
+  }
+  #contacto .c-col {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #contacto .c-col .flex {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  #contacto .c-col .txt {
+    width: 80%;
+  }
+  #contacto .c-col p {
+    font-size: 18px !important;
+  }
+  #contacto .pad-top {
+    padding-top: 25px;
+  }
+  #contacto h2 {
+    font-size: 40px;
+    line-height: 150%;
+    font-style: normal;
+  }
+  #contacto .icon {
+    width: 15%;
+  }
+  #contacto #followus .txt {
+    width: 31% !important;
+  }
+  #contacto #followus .icon {
+    width: 15% !important;
+  }
+  #contacto #followus img {
+    width: 85% !important;
+  }
+  #contacto .icons-bot {
+    margin-bottom: 25px;
+  }
+  #contacto .mar-bot {
+    margin-bottom: 60px;
+  }
+  #contacto .pad-left {
+    padding-left: 0px;
+  }
+  #contacto #mapa {
+    width: 100%;
+    padding-top: 50px;
+  }
+  #contacto #mapa a,
+  #contacto #mapa p {
+    font-size: 17px !important;
+  }
+  #contacto .col #cform #caldera_form_1 select {
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  #contacto .col #cform #caldera_form_1 select option {
+    font-size: 16px;
+  }
+  #contacto .col #cform #caldera_form_1 .caldera-grid .form-control::-webkit-input-placeholder {
+    color: white !important;
+  }
+  #contacto .col #cform #caldera_form_1 .row .col-sm-12 .form-control,
+  #contacto .col #cform #caldera_form_1 .single .col-sm-12 .form-control {
+    padding: 18px;
+    font-size: 16px;
+  }
+  #contacto .caldera-grid .form-control::-webkit-input-placeholder {
+    font-size: 16px;
+  }
+  #contacto .caldera-grid .checkbox label,
+  #contacto .caldera-grid .radio label {
+    font-size: 24px;
+    padding-left: 10%;
+    margin-bottom: 40px;
+  }
+  #contacto #fld_7872352_1-wrap {
+    margin-left: 10%;
+    margin-top: 160px;
+    margin-bottom: 60px;
+  }
+  #contacto #fld_7872352_1-wrap .checkbox {
+    text-align: left !important;
+  }
+  #contacto #fld_7872352_1-wrap .checkbox label {
+    min-width: 310px !important;
+  }
+  #contacto #fld_7872352_1-wrap .fld_7872352_1,
+  #contacto #fld_7872352_1-wrap .fld_5824425_1,
+  #contacto #fld_7872352_1-wrap option-required {
+    height: 32px;
+    width: 90px;
+    margin-top: -3px;
+    margin-left: -70px !important;
+  }
 }

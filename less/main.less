@@ -42,10 +42,23 @@
     }
 
 
+p,li{
+font-family: 'Avenir' !important;
+    
+}
+
+h1,h2,h3,h4{
+font-family: 'Avenirb' !important;
+}
+
+h1{
+    color: white !important;
+    position: relative;
+    top: 45px;
+}
 
 
 p,li{
-font-family: 'Avenir' !important;
     font-size: 18px !important;
     line-height: 130%;
     
@@ -55,13 +68,15 @@ b, strong{
     font-weight: 600 !important;
 }
 
+//sizes ---------------------------
+
+@media screen and (min-width:1150px){
+
 h3,h4{
-font-family: 'Avenirb' !important;
     font-size: 26px !important;
 }
 
 h1,h2{
-    font-family: 'Avenirb' !important;
     font-size: 31px !important;
 }
 
@@ -71,14 +86,77 @@ h2,h1{
 
 h1{
     font-size: 50px !important;
-    color: white !important;
-    position: relative;
-    top: 45px;
 }
 
-.b{
-    font-weight: 600;
+.fullw{
+    margin-left: -250px !important;
+    margin-right: -250px !important;
 }
+
+   .btn-green {
+        font-size: 16px;
+    }
+
+//DIRECT TO THE THEME!!! //sizes
+
+//search button
+.btn-submit, .iw-effect-button-v2{
+    .ion-ios-search{
+    font-size: 30px !important;
+    }
+    span{
+        font-size: 22px !important;
+    }
+}
+
+//status
+#select2-status-x1-container{
+    font-size: 22px !important;
+  
+    
+}
+
+.select2-selection--single{
+    .select2-selection__rendered{
+
+            font-size: 22px !important;
+    }
+}
+
+//arrow
+body .iw-search-form .select2-container--default .select2-selection--single .select2-selection__arrow b:after
+{
+    font-size: 22px !important;
+   
+}
+
+//btn search
+
+
+
+
+
+
+//avanzada
+.iw-search-add-advanced{
+
+            font-size: 16px !important;
+    
+}
+    
+    
+    
+    //spacing-------------------------------------- SPACING -------------------------------- - - - - - - - -  - - - - - - - - - - - -
+    
+    #whoweare{
+    position: relative !important;
+    right: 7% !important;
+    }
+    
+}
+
+//---------------------------txt sizes/
+
 
 .mar-top{
     margin-top: 40px;
@@ -106,10 +184,10 @@ margin-bottom: 40px !important;
 
 .fcentered{
     //text-align: center; //THE
-    display: flex !important; //SUPER
-    justify-content: center !important; //RESPONSIVE
-    align-items: center !important; //TOOL
-    flex-direction: column !important; // OMEGA
+    display: flex; //SUPER
+    justify-content: center ; //RESPONSIVE
+    align-items: center ; //TOOL
+    flex-direction: column ; // OMEGA
 }
 
 
@@ -118,17 +196,14 @@ margin-bottom: 40px !important;
     text-align: center;
 }
 
-.fullw{
-    margin-left: -250px !important;
-    margin-right: -250px !important;
-}
+
 
    .btn-green {
         background-color: @green;
         padding: 10px 26px;
         color: white;
         font-weight: 100;
-        font-size: 16px;
+      
         font-family: 'Avenir';
         text-decoration: none !important;
        transition: 0.3s !important;
@@ -147,35 +222,24 @@ margin-bottom: 40px !important;
 
 #whoweare{
     position: relative !important;
-    right: 7% !important;
 }
 
-#ubik-row-logo{
-    
-}
+
 
 .left-txt{
     text-transform: none !important;
 }
 
-.bigp{
-    p{
-        font-size: 24px !important;
-        font-weight:500 !important; 
-        .strong{
-             font-weight:500 !important; 
-        }
-    }
-}
+
 //DIRECT TO THE THEME!!!
 
 //search button
 .btn-submit, .iw-effect-button-v2{
     .ion-ios-search{
-    font-size: 30px !important;
+   
     }
     span{
-        font-size: 22px !important;
+
         font-family: 'Avenir';
     }
 }
@@ -184,7 +248,7 @@ margin-bottom: 40px !important;
 #select2-status-x1-container{
     text-transform: uppercase !important;
      font-family: 'Avenir' !important;
-    font-size: 22px !important;
+   
   
     
 }
@@ -193,7 +257,7 @@ margin-bottom: 40px !important;
     .select2-selection__rendered{
            text-transform: uppercase !important;
              font-family: 'Avenir' !important;
-            font-size: 22px !important;
+          
           background-color: @sky !important;
     }
 }
@@ -201,7 +265,7 @@ margin-bottom: 40px !important;
 //arrow
 body .iw-search-form .select2-container--default .select2-selection--single .select2-selection__arrow b:after
 {
-    font-size: 22px !important;
+    //font-size: 22px !important;
    
 }
 
@@ -227,7 +291,7 @@ border-radius: 0px !important;
 .iw-search-add-advanced{
     text-transform: uppercase !important;
       font-family: 'Avenir' !important;
-            font-size: 16px !important;
+            //font-size: 16px !important;
     font-weight: 100;
     
 }
@@ -286,6 +350,8 @@ border-radius: 0px !important;
 }
 
 //  :nth-of-type(2)
+
+//logo -------------------------------------------------- branding logo logotipo////////////////// header ///////---------->>>><<<<<<
 
 
 .main-logo{
@@ -647,6 +713,6 @@ border-radius: 0px !important;
 
     }
 
-//@import "responsive";
+@import "responsive";
 
 //} 
