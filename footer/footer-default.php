@@ -102,7 +102,7 @@
                     </div>
                     
                     <div class="col icon fcentered">
-                       <a href="https://business.facebook.com/" target="_blank"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/facebookicon.svg" alt="Facebook"></a>
+                       <a href="https://www.facebook.com/ubikbienesraices/" target="_blank"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/facebookicon.svg" alt="Facebook"></a>
                        
                     </div>
                     <div class="col icon fcentered">

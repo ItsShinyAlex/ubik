@@ -515,6 +515,35 @@ li[aria-expanded="true"] {
 #contacto input[type="submit"]:not([name="update_cart"]) {
   background-color: #51b151 !important;
 }
+#shiny-template #somos h2,
+#shiny-template #vision h2,
+#shiny-template #mision h2 {
+  color: #1db1c2;
+}
+#shiny-template #somos p,
+#shiny-template #vision p,
+#shiny-template #mision p {
+  color: black;
+  text-align: justify;
+  text-align-last: left;
+}
+#shiny-template #somos .container,
+#shiny-template #vision .container,
+#shiny-template #mision .container {
+  margin: 0 !important;
+  width: 100%;
+}
+#shiny-template #somos .col,
+#shiny-template #vision .col,
+#shiny-template #mision .col {
+  padding: 40px;
+}
+#shiny-template #asesorias {
+  background-color: #1db1c2;
+}
+#shiny-template #asesorias h2 {
+  color: white;
+}
 @media screen and (max-width: 650px) {
   .notrans {
     text-align: center !important;
