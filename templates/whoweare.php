@@ -5,7 +5,7 @@ echo "<section id ='shiny-template'>";
 ?>
 
 
-<section class="template-section" id="somos">
+<section class="template-section" id="who">
     <div class="container">
        <div class="fcentered">
            <h1>¿QUIÉNES SOMOS?</h1>
@@ -108,15 +108,21 @@ echo "<section id ='shiny-template'>";
 
 <section class="template-section" id="valores">
     <div class="container">
-        <h2 class="center">
+        <h2 class="center"> VALORES</h2>
             <div class="flex">
-                <div class="col"><img src="" alt="PROFESIONALISMO"></div>
-                <div class="col"><img src="" alt="HONESTIDAD"></div>
-                <div class="col"><img src="" alt="DISPOSICIÓN"></div>
-                <div class="col"><img src="" alt="OBJETIVIDAD"></div>
-                <div class="col"><img src="" alt="AMABILIDAD"></div>
+                <div class="col fcentered"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/who/PROFESIONALISMO.svg" alt="PROFESIONALISMO">
+                <p>PROFESIONALISMO</p>
+                </div>
+                <div class="col fcentered"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/who/HONESTIDAD.svg" alt="HONESTIDAD">
+                <p>HONESTIDAD</p></div>
+                <div class="col fcentered"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/who/DISPOSICION.svg" alt="DISPOSICIÓN">
+                <p>DISPOSICIÓN</p></div>
+                <div class="col fcentered"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/who/OBJETIVIDAD.svg" alt="OBJETIVIDAD">
+                <p>OBJETIVIDAD</p></div>
+                <div class="col fcentered"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/who/AMABILIDAD.svg" alt="AMABILIDAD">
+                <p>AMABILIDAD</p></div>
             </div>
-        </h2>
+       
     </div>
 </section>
 

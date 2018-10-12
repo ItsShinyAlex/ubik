@@ -93,7 +93,7 @@ h3,
 h4 {
   font-family: 'Avenirb' !important;
 }
-h1 {
+.iw-heading h1 {
   color: white !important;
   position: relative;
   top: 45px;
@@ -515,6 +515,30 @@ li[aria-expanded="true"] {
 #contacto input[type="submit"]:not([name="update_cart"]) {
   background-color: #51b151 !important;
 }
+#shiny-template .page-heading {
+  display: none !important;
+}
+#shiny-template .fcentered {
+  text-align: center;
+  display: flex;
+  justify-content: center ;
+  align-items: center ;
+}
+#shiny-template #who {
+  background: url(../img/who/back-bricks.jpg) center no-repeat;
+  height: 200px;
+  background-size: cover;
+}
+#shiny-template #who .container,
+#shiny-template #who .fcentered {
+  height: 200px ;
+}
+#shiny-template #who h1 {
+  color: #1db1c2 !important;
+}
+#shiny-template #who .fcentered {
+  text-align: center;
+}
 #shiny-template #somos h2,
 #shiny-template #vision h2,
 #shiny-template #mision h2 {
@@ -531,18 +555,75 @@ li[aria-expanded="true"] {
 #shiny-template #vision .container,
 #shiny-template #mision .container {
   margin: 0 !important;
+  padding: 0;
   width: 100%;
+}
+#shiny-template #somos .flex,
+#shiny-template #vision .flex,
+#shiny-template #mision .flex {
+  height: 609px;
 }
 #shiny-template #somos .col,
 #shiny-template #vision .col,
 #shiny-template #mision .col {
-  padding: 40px;
+  padding: 0 9%;
+}
+#shiny-template #somos #couplekeys,
+#shiny-template #vision #couplekeys,
+#shiny-template #mision #couplekeys {
+  background: url(../img/who/coup-cappy-keys.jpg) center no-repeat;
+  background-size: cover;
+}
+#shiny-template #somos #v-couple,
+#shiny-template #vision #v-couple,
+#shiny-template #mision #v-couple {
+  background: url(../img/who/c-read-vis.jpg) center no-repeat;
+  background-size: cover;
+}
+#shiny-template #somos #m-couple,
+#shiny-template #vision #m-couple,
+#shiny-template #mision #m-couple {
+  background: url(../img/who/c-mis-empryhouse.jpg) center no-repeat;
+  background-size: cover;
 }
 #shiny-template #asesorias {
+  padding: 120px 0;
   background-color: #1db1c2;
 }
 #shiny-template #asesorias h2 {
   color: white;
+  margin-bottom: 60px;
+}
+#shiny-template #asesorias p {
+  color: black;
+  text-align: justify;
+  text-align-last: left;
+}
+#shiny-template #asesorias .col {
+  padding: 1% 4% 2%;
+}
+#shiny-template #asesorias #border-r {
+  border-right: white 2px solid;
+}
+#shiny-template #valores {
+  padding: 140px 0;
+}
+#shiny-template #valores h2 {
+  margin-bottom: 50px;
+  color: #1db1c2;
+}
+#shiny-template #valores .col {
+  width: 20% !important;
+  padding: 0 2%;
+}
+#shiny-template #valores .col img {
+  margin-bottom: 20px;
+}
+#shiny-template #valores .col p {
+  color: #a6a6a6;
+  font-family: "avenirb";
+  font-size: 16px;
+  font-weight: 600;
 }
 @media screen and (max-width: 650px) {
   .notrans {

@@ -140,11 +140,16 @@ h1,h2,h3,h4{
 font-family: 'Avenirb' !important;
 }
 
-h1{
-    color: white !important;
-    position: relative;
-    top: 45px;
+.iw-heading{
+    h1{
+        
+        color: white !important;
+        position: relative;
+        top: 45px;
+    }
+    
 }
+
 
 
 p,li{
@@ -821,7 +826,38 @@ border-radius: 0px !important;
 //(((((((((((((((((((((((( ¿ QUIENES SOMOS ? )))))))))))))))))))))))) WHY WHY WHY WHY WHO WE ARE --------------------->
 
 #shiny-template{
+    .page-heading {
+        display: none !important;
+    }
     
+    .fcentered{
+    text-align: center; //THE
+    display: flex; //SUPER
+    justify-content: center ; //RESPONSIVE
+    align-items: center ; //TOOL
+    //flex-direction: column ; // OMEGA
+}
+    
+    #who{
+        background: url(../img/who/back-bricks.jpg) center no-repeat;
+        height: 200px;
+        
+        .container, .fcentered{
+            height: 200px ;
+        }
+
+        background-size: cover;
+        
+        h1{
+            color: @blue !important;
+            //padding: 50px 0px;
+        //font-size: 50px !important;
+        }
+        
+        .fcentered{
+            text-align: center;
+        }
+    }
     
 
     #somos, #vision, #mision{
@@ -837,19 +873,82 @@ border-radius: 0px !important;
         
         .container{
             margin: 0 !important;
+            padding: 0;
             width: 100%;
+            
             
         }
         
+       .flex{
+            height: 609px;
+        }
+        
         .col{
-            padding: 40px;
+            padding: 0 9%;
+        }
+        
+        
+        
+        #couplekeys{
+            background: url(../img/who/coup-cappy-keys.jpg) center no-repeat;
+            background-size: cover;
+            
+        }
+        
+        #v-couple{
+            background: url(../img/who/c-read-vis.jpg) center no-repeat;
+            background-size: cover;
+        }
+        
+        #m-couple{
+            background: url(../img/who/c-mis-empryhouse.jpg) center no-repeat;
+            background-size: cover;
         }
     }
     
     #asesorias{
+        padding: 120px 0;
         background-color: @blue;
         h2{
             color: white;
+            margin-bottom: 60px;
+        }
+        
+        p{
+            color: black;
+            text-align: justify;
+            text-align-last: left;
+        }
+        
+        .col{
+            padding: 1% 4% 2%;
+        }
+        
+        #border-r{
+            border-right: white 2px solid;
+        }
+    }
+    
+    #valores{
+        
+        h2{
+            margin-bottom: 50px;
+            color: @blue;
+        }
+        
+        padding: 140px 0;
+        .col{
+            width: 20% !important;
+            padding: 0 2%;
+            img{
+                margin-bottom: 20px;
+            }
+            p{
+                color: #a6a6a6;
+                font-family: "avenirb";
+                font-size: 16px;
+                font-weight: 600;
+            }
         }
     }
 
