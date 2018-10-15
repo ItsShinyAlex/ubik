@@ -53,13 +53,11 @@
     width: 140px !important;
     height: auto;
     position: relative !important;
-    bottom: 31px;
+    top: 11px;
   }
   .sticky-logo {
     width: 100px !important;
     height: auto;
-    position: relative !important;
-    bottom: 50px;
   }
   .navbar-default-inner {
     min-height: 116px;
@@ -68,7 +66,7 @@
     min-height: 90px !important;
   }
   .header.header-default.header-style-v2 .iw-header:after {
-    opacity: 0.5 !important;
+    opacity: 0.51 !important;
   }
 }
 #properties .shortcode-title {
@@ -279,19 +277,34 @@ li[aria-expanded="true"] {
   /* Fallback for older browsers without RGBA-support */
   background: rgba(0, 0, 0, 0.5);
 }
+/*.iw-property-item~.iw-property-item{
+    
+    
+    .reality-icon-villa{
+    
+    &:before{
+       //content: url(icon/casa2.svg) !important;  
+    }
+       
+    
+    
+}
+    
+    
+}*/
 .iw-property-types.style-3 .iw-property-item .iwp-type-icon a {
   border: 2px white solid !important;
   border-radius: 0 !important;
 }
-.vc_custom_1523866808804 {
+.iw-property-types {
   position: relative !important;
   margin-top: 86px !important;
 }
-.vc_custom_1523866808804 .title-block {
+.iw-property-types .title-block {
   position: relative;
   bottom: 30px;
 }
-.vc_custom_1523866808804 h3 {
+.iw-property-types h3 {
   font-weight: 100 !important;
   font-size: 12px !important;
   font-family: 'Avenir' !important;
@@ -637,9 +650,9 @@ li[aria-expanded="true"] {
 }
 @media screen and (max-width: 650px) {
   .logo-mobile {
-    width: 90px !important;
+    width: 88px !important;
     position: relative;
-    top: 11px;
+    top: 1px;
   }
   .notrans {
     text-align: center !important;
