@@ -117,9 +117,9 @@ echo "<section id ='shiny-template'>";
                 <p>HONESTIDAD</p></div>
                 <div class="col fcentered"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/who/DISPOSICION.svg" alt="DISPOSICIÓN">
                 <p>DISPOSICIÓN</p></div>
-                <div class="col fcentered"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/who/OBJETIVIDAD.svg" alt="OBJETIVIDAD">
+                <div class="col fcentered" id="obj"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/who/OBJETIVIDAD.svg" alt="OBJETIVIDAD">
                 <p>OBJETIVIDAD</p></div>
-                <div class="col fcentered"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/who/AMABILIDAD.svg" alt="AMABILIDAD">
+                <div class="col fcentered" id="ama"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/who/AMABILIDAD.svg" alt="AMABILIDAD">
                 <p>AMABILIDAD</p></div>
             </div>
        

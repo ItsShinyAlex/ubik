@@ -641,7 +641,7 @@ li[aria-expanded="true"] {
   h2 {
     line-height: 135% !important;
   }
-  h1 {
+  .iw-heading h1 {
     margin-bottom: 80px !important;
   }
   #who .vc_column-inner {
@@ -794,5 +794,121 @@ li[aria-expanded="true"] {
     width: 90px;
     margin-top: -3px;
     margin-left: -70px !important;
+  }
+  #contacto iframe {
+    width: 100% !important;
+  }
+  #shiny-template .page-heading {
+    display: none !important;
+  }
+  #shiny-template .fcentered {
+    text-align: center;
+    display: flex;
+    justify-content: center ;
+    align-items: center ;
+  }
+  #shiny-template #who {
+    background-size: 120%;
+  }
+  #shiny-template #who h1 {
+    font-size: 30px !important;
+    margin: 0 !important;
+  }
+  #shiny-template #somos .col,
+  #shiny-template #vision .col,
+  #shiny-template #mision .col {
+    width: 100% !important;
+    padding: 0 9%;
+  }
+  #shiny-template #somos .fcentered,
+  #shiny-template #vision .fcentered,
+  #shiny-template #mision .fcentered {
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  #shiny-template #somos #couplekeys,
+  #shiny-template #vision #couplekeys,
+  #shiny-template #mision #couplekeys {
+    height: 260px;
+  }
+  #shiny-template #somos #v-couple,
+  #shiny-template #vision #v-couple,
+  #shiny-template #mision #v-couple {
+    height: 260px;
+  }
+  #shiny-template #somos #m-couple,
+  #shiny-template #vision #m-couple,
+  #shiny-template #mision #m-couple {
+    height: 260px;
+  }
+  #shiny-template #somos .flex {
+    height: 750px;
+  }
+  #shiny-template #mision .flex {
+    height: 560px;
+  }
+  #shiny-template #mision h2 {
+    margin-top: -10px;
+  }
+  #shiny-template #vision .flex {
+    flex-wrap: wrap-reverse;
+    height: 666px;
+  }
+  #shiny-template #vision .flex h2 {
+    margin-top: 50px;
+  }
+  #shiny-template #asesorias {
+    padding: 70px 0;
+  }
+  #shiny-template #asesorias h2 {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  #shiny-template #asesorias p {
+    color: black;
+    text-align: justify;
+    text-align-last: center;
+  }
+  #shiny-template #asesorias .col {
+    width: 100% !important;
+    padding: 1% 4% 8%;
+  }
+  #shiny-template #asesorias #border-r {
+    border-right: white 0px solid;
+    border-bottom: white 4px solid;
+  }
+  #shiny-template #asesorias h3 {
+    text-align: center;
+  }
+  #shiny-template #valores {
+    padding: 80px 0;
+  }
+  #shiny-template #valores h2 {
+    margin-bottom: 50px;
+    color: #1db1c2;
+  }
+  #shiny-template #valores .col {
+    width: 33% !important;
+    padding: 0 2%;
+  }
+  #shiny-template #valores .col img {
+    width: 80px;
+    margin-bottom: 20px;
+  }
+  #shiny-template #valores .col p {
+    font-size: 13px !important;
+  }
+  #shiny-template #valores #obj,
+  #shiny-template #valores #ama {
+    width: 50% !important;
+    margin-top: 40px;
+  }
+  #shiny-template #valores #obj {
+    padding-left: 20%;
+  }
+  #shiny-template #valores #ama {
+    padding-right: 20%;
   }
 }
