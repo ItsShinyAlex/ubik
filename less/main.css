@@ -42,6 +42,34 @@
   .notrans h2 {
     padding-right: 13.5%;
   }
+  .iwp-property-order .iwp-filter-list .select2-selection #select2-orderby-7o-container,
+  .iwp-property-order .iwp-filter-list .select2-selection #select2-orderby-6o-container,
+  .iwp-property-order .iwp-filter-list .select2-selection #select2-orderby-wq-container,
+  .iwp-property-order .iwp-filter-list .select2-selection .select2-selection__rendered {
+    font-size: 12px !important;
+    background-color: white !important;
+  }
+  .main-logo {
+    width: 140px !important;
+    height: auto;
+    position: relative !important;
+    bottom: 31px;
+  }
+  .sticky-logo {
+    width: 100px !important;
+    height: auto;
+    position: relative !important;
+    bottom: 50px;
+  }
+  .navbar-default-inner {
+    min-height: 116px;
+  }
+  .is-sticky .navbar-default-inner {
+    min-height: 90px !important;
+  }
+  .header.header-default.header-style-v2 .iw-header:after {
+    opacity: 0.5 !important;
+  }
 }
 #properties .shortcode-title {
   color: #1db1c2 !important;
@@ -268,24 +296,6 @@ li[aria-expanded="true"] {
   font-size: 12px !important;
   font-family: 'Avenir' !important;
   text-transform: uppercase !important;
-}
-.main-logo {
-  width: 160px !important;
-  height: auto;
-  position: relative !important;
-  bottom: 31px;
-}
-.sticky-logo {
-  width: 100px !important;
-  height: auto;
-  position: relative !important;
-  bottom: 50px;
-}
-.navbar-default-inner {
-  min-height: 136px;
-}
-.is-sticky .navbar-default-inner {
-  min-height: 90px !important;
 }
 #contacto {
   background-color: #29b1c2;
@@ -626,6 +636,11 @@ li[aria-expanded="true"] {
   font-weight: 600;
 }
 @media screen and (max-width: 650px) {
+  .logo-mobile {
+    width: 90px !important;
+    position: relative;
+    top: 11px;
+  }
   .notrans {
     text-align: center !important;
   }
