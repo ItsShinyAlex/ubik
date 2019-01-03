@@ -5,7 +5,7 @@ echo "<section id ='shiny-template'>";
 ?>
 
 
-<section class="template-section" id="who">
+<section class="template-section shiny" id="who">
     <div class="container">
        <div class="fcentered">
            <h1>¿QUIÉNES SOMOS?</h1>
@@ -13,7 +13,7 @@ echo "<section id ='shiny-template'>";
     </div>
 </section>
 
-<section class="template-section" id="somos">
+<section class="template-section shiny" id="somos">
     <div class="container">
         <div class="flex">
            
@@ -37,7 +37,7 @@ echo "<section id ='shiny-template'>";
 
 
 
-<section class="template-section" id="vision">
+<section class="template-section shiny" id="vision">
     <div class="container">
         <div class="flex">
           
@@ -60,7 +60,7 @@ echo "<section id ='shiny-template'>";
 
 
 
-<section class="template-section" id="mision">
+<section class="template-section shiny" id="mision">
     <div class="container">
         <div class="flex">
            
@@ -87,7 +87,7 @@ echo "<section id ='shiny-template'>";
     </div>
 </section>
 
-<section class="template-section" id="asesorias">
+<section class="template-section shiny" id="asesorias">
     <div class="container">
         <h2 class="center">CÓMO TRABAJAMOS TAMBIÉN IMPORTA </h2>
             <div class="flex">
@@ -106,7 +106,7 @@ echo "<section id ='shiny-template'>";
     </div>
 </section>
 
-<section class="template-section" id="valores">
+<section class="template-section shiny" id="valores">
     <div class="container">
         <h2 class="center"> VALORES</h2>
             <div class="flex">

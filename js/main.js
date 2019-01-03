@@ -15,6 +15,13 @@ window.onload = function () {
 };
 
 // JavaScript
+
+window.onload = function () {
+   $( "i.ion-close-round" ).parent().css( "display", "none" );
+};
+
+
+
 window.sr = ScrollReveal({
     reset: false
 });

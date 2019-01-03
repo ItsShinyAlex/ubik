@@ -6,12 +6,27 @@
 //@import "effects";
 
 
+.iwp-single-property-description{
+    p{
+        text-align: justify;
+    }
+}
 
+.center{
+    text-align: center;
+}
+
+.iw-property-item.grid-item .iw-property-content .iw-property-title{
+    line-height: 95%;
+} 
 
 ///////////////////////////////////////////////////////////////////////effect end
 //header
 
-@media screen and (min-width:1150px){
+@media screen and (min-width:800px){
+    
+    
+    
     #properties{
         
         .shortcode-title{
@@ -43,16 +58,25 @@
         
         .content-top{
             h2{
+                margin-bottom: 5%;
+                line-height: 90%;
+                min-height: 82px;
                 a{
                 font-size: 19px !important;
-                    line-height: 105% !important;
+                    line-height: 95%;
                     font-family: 'Avenirb' !important;
                     font-weight: 600 !important;
+                
                 }
             }
         }
     }
     
+    #howework{
+         #border-r, .border-r{
+            border-right: white 2px solid;
+        }
+    }
     
     .notrans{
         h2{
@@ -113,6 +137,24 @@
 
 }
 
+#dreamhouse{
+    .iw-heading{
+        h1{
+
+            color: white !important;
+            position: relative;
+            top: 45px;
+        }
+
+    }
+    .title-block{
+        font-size: 40px;
+        bottom: 45px;
+        position: relative;
+         font-family: 'Avenir' !important;
+    }
+}
+
 
 
 
@@ -157,6 +199,22 @@
 
 
 
+    @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
+        { 
+            
+           
+            
+            #wannasell{
+                //padding-left: 30%;
+               margin: auto;
+            
+            
+        }
+    }
+
+
+
+
 .flex {
         display: flex;
         flex-wrap: wrap;
@@ -193,22 +251,16 @@ h1,h2,h3,h4{
 font-family: 'Avenirb' !important;
 }
 
-.iw-heading{
-    h1{
-        
-        color: white !important;
-        position: relative;
-        top: 45px;
+
+
+
+
+.shiny{
+        p,li{
+        font-size: 18px !important;
+        line-height: 130%;
+
     }
-    
-}
-
-
-
-p,li{
-    font-size: 18px !important;
-    line-height: 130%;
-    
 }
 
 b, strong{
@@ -219,6 +271,12 @@ b, strong{
 
 @media screen and (min-width:1150px){
     
+    .fullw{
+    margin-left: -250px !important;
+    margin-right: -250px !important;
+}
+  
+    .shiny{
     p{
         font-size: 22px !important;
     }
@@ -239,10 +297,7 @@ h1{
     font-size: 50px !important;
 }
 
-.fullw{
-    margin-left: -250px !important;
-    margin-right: -250px !important;
-}
+
 
    .btn-green {
         font-size: 16px;
@@ -261,18 +316,21 @@ h1{
 }
 
 //status
-#select2-status-x1-container{
-    font-size: 22px !important;
-  
-    
-}
+        
 
-.select2-selection--single{
-    .select2-selection__rendered{
+                #select2-status-x1-container{
+                    font-size: 22px !important;
 
-            font-size: 22px !important;
-    }
-}
+
+                }
+
+                .select2-selection--single{
+                    .select2-selection__rendered{
+
+                            font-size: 22px !important;
+                    }
+                }
+        
 
 //arrow
 body .iw-search-form .select2-container--default .select2-selection--single .select2-selection__arrow b:after
@@ -280,6 +338,8 @@ body .iw-search-form .select2-container--default .select2-selection--single .sel
     font-size: 22px !important;
    
 }
+            
+        
 
 //btn search
 
@@ -304,6 +364,7 @@ body .iw-search-form .select2-container--default .select2-selection--single .sel
     right: 7% !important;
     }
     
+}
 }
 
 //---------------------------txt sizes/
@@ -417,11 +478,22 @@ margin-bottom: 40px !important;
 
 .select2-selection--single{
     .select2-selection__rendered{
-           text-transform: uppercase !important;
-             font-family: 'Avenir' !important;
           
-          background-color: @sky !important;
+             font-family: 'Avenir' !important;
+
     }
+}
+
+.shiny{
+
+.select2-selection--single{
+    .select2-selection__rendered{
+
+          background-color: @sky !important;
+         text-transform: uppercase !important;
+    }
+}
+    
 }
 
 //arrow
@@ -952,6 +1024,10 @@ border-radius: 0px !important;
         #border-r{
             border-right: white 2px solid;
         }
+        
+        .center{
+            text-align: center !important;
+        }
     }
     
     #valores{
@@ -978,6 +1054,136 @@ border-radius: 0px !important;
     }
 
 }
+
+
+.iw-property-item{
+    .inner-item{
+        .iwp-type-icon{
+            a{
+                //overflow: hidden; 
+                i{
+                        background-size: cover;
+                        font-size: 88px !important;
+                         transition: 0.3;
+                         background-position: center;
+                         transition: all 0.3s ease;
+                        &:hover{
+                            //background-size: 120%;
+                            transition: 0.2;
+           
+                            font-size: 100px !important;
+
+                        }   
+                }
+            }
+        }
+    }
+}
+
+
+.ubik-casacampo{
+    background: url(icon/CasaCampo.jpg);  
+}
+
+.ubik-casa{
+    background: url(icon/Casa.jpg);  
+}
+.ubik-condo{
+    background: url(icon/Condo.jpg);  
+}
+.ubik-departamento{
+    background: url(icon/Departamento.jpg);  
+}
+.ubik-fraccionamiento{
+    background: url(icon/Fraccionamiento.jpg);  
+}
+.ubik-privada{
+    background: url(icon/Privada.jpg);  
+}
+.ubik-quinta{
+    background: url(icon/Quinta.jpg);  
+}
+.ubik-terr{
+    background: url(icon/Terr.jpg);  
+}
+.ubik-terrcomer{
+    background: url(icon/Terr_Comer.jpg);  
+}
+
+
+
+.ubik-casa:before{
+    //color: transparent;
+    //width: 45px !important; 
+    
+}
+
+.reality-icon-villa:before{
+    //color: transparent;
+}
+.ubik-casacampo:before, .ubik-casa:before, .ubik-condo:before, .ubik-departamento:before, .ubik-fraccionamiento:before, .ubik-privada:before, .ubik-quinta:before, .ubik-terr:before, .ubik-terrcomer:before
+{
+    content: '□□';
+     opacity: 0;
+}
+
+
+
+#properties{
+        .iw-property-item.grid-item .iw-property-content .iw-property-title{
+        line-height: 80% !important;
+        margin-bottom: 10%;
+    }
+    
+}
+
+
+.iw-property-item.grid-item .iw-property-content .content-top .iw-property-title{
+    line-height: 110% !important;
+    margin-bottom: 10%;
+}
+
+.hide{
+    display: none !important;
+}
+
+.body.admin-bar .header.header-default.header-style-v2 .is-sticky.iw-header{
+    background-color: black !important;
+}
+
+@media screen and (min-width: 991px){
+    
+    .for-header-default{
+    
+        .header.header-default.header-style-v2 .is-sticky.iw-header{
+            background-color: black !important;
+            opacity: 0.86;
+            
+            .external-link{
+                //z-index: 9999999999 !important;
+                //position: relative !important;
+                //opacity: 1;
+                color: white ;
+            }
+            
+            .navbar-nav li.menu-item.active > a{
+                
+            }
+            
+        }
+    }
+    
+    .header.header-default .iw-header{
+        background: black;
+    }
+    
+    
+}
+
+.header.header-default .navbar-default .navbar-nav li.menu-item > a{
+color: white !important;
+}
+
 
 @import "responsive";
 

@@ -11,7 +11,16 @@
   font-weight: 900;
   font-style: normal;
 }
-@media screen and (min-width: 1150px) {
+.iwp-single-property-description p {
+  text-align: justify;
+}
+.center {
+  text-align: center;
+}
+.iw-property-item.grid-item .iw-property-content .iw-property-title {
+  line-height: 95%;
+}
+@media screen and (min-width: 800px) {
   #properties .shortcode-title {
     color: #1db1c2 !important;
     font-size: 36px !important;
@@ -33,11 +42,20 @@
     font-size: 14px !important;
     line-height: 125% !important;
   }
+  #properties .content-top h2 {
+    margin-bottom: 5%;
+    line-height: 90%;
+    min-height: 82px;
+  }
   #properties .content-top h2 a {
     font-size: 19px !important;
-    line-height: 105% !important;
+    line-height: 95%;
     font-family: 'Avenirb' !important;
     font-weight: 600 !important;
+  }
+  #howework #border-r,
+  #howework .border-r {
+    border-right: white 2px solid;
   }
   .notrans h2 {
     padding-right: 13.5%;
@@ -69,6 +87,17 @@
     opacity: 0.51 !important;
   }
 }
+#dreamhouse .iw-heading h1 {
+  color: white !important;
+  position: relative;
+  top: 45px;
+}
+#dreamhouse .title-block {
+  font-size: 40px;
+  bottom: 45px;
+  position: relative;
+  font-family: 'Avenir' !important;
+}
 #properties .shortcode-title {
   color: #1db1c2 !important;
 }
@@ -86,6 +115,11 @@
 #properties .content-top h2 a {
   font-family: 'Avenirb' !important;
   font-weight: 600 !important;
+}
+@media screen and (min-color-index: 0) and (-webkit-min-device-pixel-ratio: 0) {
+  #wannasell {
+    margin: auto;
+  }
 }
 .flex {
   display: flex;
@@ -119,13 +153,8 @@ h3,
 h4 {
   font-family: 'Avenirb' !important;
 }
-.iw-heading h1 {
-  color: white !important;
-  position: relative;
-  top: 45px;
-}
-p,
-li {
+.shiny p,
+.shiny li {
   font-size: 18px !important;
   line-height: 130%;
 }
@@ -134,52 +163,52 @@ strong {
   font-weight: 600 !important;
 }
 @media screen and (min-width: 1150px) {
-  p {
-    font-size: 22px !important;
-  }
-  h3,
-  h4 {
-    font-size: 28px !important;
-  }
-  h1,
-  h2 {
-    font-size: 36px !important;
-  }
-  h2,
-  h1 {
-    font-weight: 600;
-  }
-  h1 {
-    font-size: 50px !important;
-  }
   .fullw {
     margin-left: -250px !important;
     margin-right: -250px !important;
   }
-  .btn-green {
+  .shiny p {
+    font-size: 22px !important;
+  }
+  .shiny h3,
+  .shiny h4 {
+    font-size: 28px !important;
+  }
+  .shiny h1,
+  .shiny h2 {
+    font-size: 36px !important;
+  }
+  .shiny h2,
+  .shiny h1 {
+    font-weight: 600;
+  }
+  .shiny h1 {
+    font-size: 50px !important;
+  }
+  .shiny .btn-green {
     font-size: 16px;
   }
-  .btn-submit .ion-ios-search,
-  .iw-effect-button-v2 .ion-ios-search {
+  .shiny .btn-submit .ion-ios-search,
+  .shiny .iw-effect-button-v2 .ion-ios-search {
     font-size: 30px !important;
   }
-  .btn-submit span,
-  .iw-effect-button-v2 span {
+  .shiny .btn-submit span,
+  .shiny .iw-effect-button-v2 span {
     font-size: 22px !important;
   }
-  #select2-status-x1-container {
+  .shiny #select2-status-x1-container {
     font-size: 22px !important;
   }
-  .select2-selection--single .select2-selection__rendered {
+  .shiny .select2-selection--single .select2-selection__rendered {
     font-size: 22px !important;
   }
-  body .iw-search-form .select2-container--default .select2-selection--single .select2-selection__arrow b:after {
+  .shiny body .iw-search-form .select2-container--default .select2-selection--single .select2-selection__arrow b:after {
     font-size: 22px !important;
   }
-  .iw-search-add-advanced {
+  .shiny .iw-search-add-advanced {
     font-size: 16px !important;
   }
-  #whoweare {
+  .shiny #whoweare {
     position: relative !important;
     right: 7% !important;
   }
@@ -250,9 +279,11 @@ strong {
   font-family: 'Avenir' !important;
 }
 .select2-selection--single .select2-selection__rendered {
-  text-transform: uppercase !important;
   font-family: 'Avenir' !important;
+}
+.shiny .select2-selection--single .select2-selection__rendered {
   background-color: #6ac1d3 !important;
+  text-transform: uppercase !important;
 }
 .iw-search-form .iw-fields .iw-field.for-button-submit {
   border-radius: 0px !important;
@@ -628,6 +659,9 @@ li[aria-expanded="true"] {
 #shiny-template #asesorias #border-r {
   border-right: white 2px solid;
 }
+#shiny-template #asesorias .center {
+  text-align: center !important;
+}
 #shiny-template #valores {
   padding: 140px 0;
 }
@@ -648,7 +682,117 @@ li[aria-expanded="true"] {
   font-size: 16px;
   font-weight: 600;
 }
+.iw-property-item .inner-item .iwp-type-icon a i {
+  background-size: cover;
+  font-size: 88px !important;
+  transition: 0.3;
+  background-position: center;
+  transition: all 0.3s ease;
+}
+.iw-property-item .inner-item .iwp-type-icon a i:hover {
+  transition: 0.2;
+  font-size: 100px !important;
+}
+.ubik-casacampo {
+  background: url(icon/CasaCampo.jpg);
+}
+.ubik-casa {
+  background: url(icon/Casa.jpg);
+}
+.ubik-condo {
+  background: url(icon/Condo.jpg);
+}
+.ubik-departamento {
+  background: url(icon/Departamento.jpg);
+}
+.ubik-fraccionamiento {
+  background: url(icon/Fraccionamiento.jpg);
+}
+.ubik-privada {
+  background: url(icon/Privada.jpg);
+}
+.ubik-quinta {
+  background: url(icon/Quinta.jpg);
+}
+.ubik-terr {
+  background: url(icon/Terr.jpg);
+}
+.ubik-terrcomer {
+  background: url(icon/Terr_Comer.jpg);
+}
+.ubik-casacampo:before,
+.ubik-casa:before,
+.ubik-condo:before,
+.ubik-departamento:before,
+.ubik-fraccionamiento:before,
+.ubik-privada:before,
+.ubik-quinta:before,
+.ubik-terr:before,
+.ubik-terrcomer:before {
+  content: '□□';
+  opacity: 0;
+}
+#properties .iw-property-item.grid-item .iw-property-content .iw-property-title {
+  line-height: 80% !important;
+  margin-bottom: 10%;
+}
+.iw-property-item.grid-item .iw-property-content .content-top .iw-property-title {
+  line-height: 110% !important;
+  margin-bottom: 10%;
+}
+.hide {
+  display: none !important;
+}
+.body.admin-bar .header.header-default.header-style-v2 .is-sticky.iw-header {
+  background-color: black !important;
+}
+@media screen and (min-width: 991px) {
+  .for-header-default .header.header-default.header-style-v2 .is-sticky.iw-header {
+    background-color: black !important;
+    opacity: 0.86;
+  }
+  .for-header-default .header.header-default.header-style-v2 .is-sticky.iw-header .external-link {
+    color: white ;
+  }
+  .header.header-default .iw-header {
+    background: black;
+  }
+}
+.header.header-default .navbar-default .navbar-nav li.menu-item > a {
+  color: white !important;
+}
+@media screen and (max-width: 480px) {
+  body .iw-hide-bg-image-vc-mobile,
+  body .iw-hide-bg-image-vc-mobile.iw-parallax {
+    background-image: url(../img/res-ubik-back.jpg) center no-repeat !important;
+  }
+}
+@media screen and (max-width: 479px) {
+  #dreamhouse .iw-parallax {
+    background-image: url(../img/res-ubik-back.jpg) center no-repeat !important;
+    background: url(../img/res-ubik-back.jpg) center no-repeat !important;
+  }
+  #dreamhouse .iw-hide-bg-image-vc-mobile {
+    background: url(../img/res-ubik-back.jpg) center no-repeat !important;
+    background-image: url(../img/res-ubik-back.jpg) center no-repeat !important;
+  }
+}
 @media screen and (max-width: 650px) {
+  #dreamhouse .iw-parallax {
+    background-image: url(../img/res-ubik-back.jpg) center no-repeat !important;
+    background: url(../img/res-ubik-back.jpg) center no-repeat !important;
+  }
+  #dreamhouse .iw-hide-bg-image-vc-mobile {
+    background: url(../img/res-ubik-back.jpg) center no-repeat !important;
+  }
+  #dreamhouse .title-block {
+    font-size: 23px;
+    bottom: 65px;
+  }
+  body #dreamhouse .iw-hide-bg-image-vc-mobile,
+  body #dreamhouse .iw-hide-bg-image-vc-mobile.iw-parallax {
+    background: url(../img/res-ubik-back.jpg) center no-repeat !important;
+  }
   .logo-mobile {
     width: 88px !important;
     position: relative;
@@ -665,11 +809,11 @@ li[aria-expanded="true"] {
     font-size: 17px !important;
     text-align: center !important;
   }
-  h1,
-  h2 {
+  .shiny h1,
+  .shiny h2 {
     line-height: 135% !important;
   }
-  .iw-heading h1 {
+  .shiny .iw-heading h1 {
     margin-bottom: 80px !important;
   }
   #who .vc_column-inner {
