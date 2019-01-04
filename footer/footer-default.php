@@ -55,7 +55,7 @@
                     </div>
                     <div class="col txt v-center">
                         <p class="white phone">
-                            <a class="white" href="tel:7772150518">777-7772150518 - Oficina</a><br>
+                            <a class="white" href="tel:7772150518">777-2150518 - Oficina</a><br>
                             <a class="white" href="tel:7771847922">777-1847922 - Celular</a>
                         </p>
                     </div>
