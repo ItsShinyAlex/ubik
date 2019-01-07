@@ -720,6 +720,12 @@ li[aria-expanded="true"] {
 .ubik-terrcomer {
   background: url(icon/Terr_Comer.jpg);
 }
+.ubik-oficina {
+  background: url(icon/oficinas.jpg);
+}
+.ubik-residencia {
+  background: url(icon/residencia.jpg);
+}
 .ubik-casacampo:before,
 .ubik-casa:before,
 .ubik-condo:before,
@@ -728,7 +734,9 @@ li[aria-expanded="true"] {
 .ubik-privada:before,
 .ubik-quinta:before,
 .ubik-terr:before,
-.ubik-terrcomer:before {
+.ubik-terrcomer:before,
+.ubik-oficina:before,
+.ubik-residencia:before {
   content: '□□';
   opacity: 0;
 }
